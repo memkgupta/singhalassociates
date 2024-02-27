@@ -3,7 +3,7 @@ import { ImagesSliderDemo } from "@/components/ImageSlider";
 import Lamp from "@/components/Lamp";
 
 import { ImagesSlider } from "@/components/ui/image-slider";
-import Document from "next/document";
+
 import Image from "next/image";
 
 export default function Home() {
