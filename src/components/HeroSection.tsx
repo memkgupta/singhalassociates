@@ -15,7 +15,7 @@ function HeroSection() {
       
 
 <div className="md:flex justify-around p-12 grid justify-items-center items-center">
-<div className="p-4 relative z-20 w-full  mt-4">
+<div className="py-4 md:px-4 relative z-20 w-full  mt-4">
 
 <h1 className="text-white font-bold text-4xl leading-10 subpixel-antialiased mb-1">Maximize Your Returns with Expert Tax Consulting Services</h1>
 <p className="text-gray-300  subpixel-antialiased mb-8">Personalized Solutions for Individuals and Businesses</p>
