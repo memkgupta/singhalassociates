@@ -14,7 +14,7 @@ function HeroSection() {
       {/* Overlay */}
       
 
-<div className="md:flex justify-around py-12 md:px-12 px-2 grid justify-items-center items-center">
+<div className="md:flex justify-center w-full py-12 md:px-6 px-2 grid justify-items-center items-center">
 <div className="py-4 md:px-4 relative z-20 w-full  mt-4">
 
 <h1 className="text-white font-bold text-4xl leading-10 subpixel-antialiased mb-1"> Expert Tax Consulting Services</h1>

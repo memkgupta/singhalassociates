@@ -24,12 +24,12 @@ export function ImagesSliderDemo() {
         transition={{
           duration: 0.6,
         }}
-        className="z-50 flex flex-col justify-center items-center"
+        className="z-50 flex flex-col justify-center w-full items-center"
       >
-        <motion.p className="  bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
+        {/* <motion.p className="  bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
           <HeroSection/>
-        </motion.p>
-       
+        </motion.p> */}
+       <HeroSection/>
       </motion.div>
     </ImagesSlider>
   );

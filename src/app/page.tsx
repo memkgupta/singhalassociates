@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import { ImagesSliderDemo } from "@/components/ImageSlider";
 import Lamp from "@/components/Lamp";
 import ServiceSection from "@/components/ServiceSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 import { ImagesSlider } from "@/components/ui/image-slider";
 
@@ -17,6 +18,7 @@ export default function Home() {
     <Lamp/>
     <ServiceSection/>
     <AboutUsSection/>
+    <WhyChooseUs/>
     </main>
   );
 }

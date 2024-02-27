@@ -7,7 +7,7 @@ import { CardStack } from "../ui/card-stack";
 import { cn } from "@/utils/cn";
 function HeroCard() {
   return (
-    <div className="h-auto   flex items-center justify-center w-full">
+    <div className="   flex items-center justify-center w-full">
     <CardStack items={CARDS} />
   </div>
   )
