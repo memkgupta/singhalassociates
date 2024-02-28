@@ -47,8 +47,8 @@ const [isOpen,setIsOpen]=useState(false);
       <MenuItem setActive={setActive} active={active} item="Articles"></MenuItem>
     </Link>
   </div>
-{isOpen&&<div className=" p-5
-absolute top-14 rounded-md w-5/6 gap-3 mx-auto boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input grid justify-center  ">
+{isOpen&&<div className=" dark:bg-opacity-90 p-5
+absolute top-20 rounded-md w-5/6 gap-3 mx-auto boder border-transparent dark:bg-black dark:border-white/[0.2]  shadow-input grid justify-start  ">
   <Link href={"/home"}>
     <MenuItem setActive={setActive} active={active} item="Home">
  
