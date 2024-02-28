@@ -12,6 +12,13 @@ const config: Config = {
   ],
   darkMode:'class',
   theme: {
+    screens:{
+      'vsm':'320px',
+      'sm': '640px',    // Small screens
+      'md': '768px',    // Medium screens
+      'lg': '1024px',   // Large screens
+      'xl': '1280px',   // Extra large screens
+    },
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
@@ -34,7 +41,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily:{
-        Nunito:["Nunito","sans-serif"]
+        Nunito:["Nunito","sans-serif"],
+        Protest:["Protest Guerrilla","sans-serif"]
       },
 
     },

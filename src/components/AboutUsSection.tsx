@@ -57,7 +57,7 @@ function AboutUsSection() {
     <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
    Singhal Associate is a leading provider of tax consulting services, dedicated to helping individuals and businesses navigate the complexities of taxation with confidence. Our team of experienced professionals combines expertise with a client-centric approach to deliver tailored solutions that maximize savings and minimize liabilities
         </p>
-        <p className='text-3xl md:text-7xl mt-5 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>Our Team </p>
+        <p className='text-3xl  mt-5 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>Our Team </p>
         <div className="flex mt-5 flex-row items-center justify-center mb-10 w-full">
       <AnimatedTooltip items={people} />
     </div>

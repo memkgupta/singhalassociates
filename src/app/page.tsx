@@ -1,4 +1,5 @@
 import AboutUsSection from "@/components/AboutUsSection";
+import ContactUsSection from "@/components/ContactUsSection";
 import HeroSection from "@/components/HeroSection";
 import { ImagesSliderDemo } from "@/components/ImageSlider";
 import Lamp from "@/components/Lamp";
@@ -19,6 +20,9 @@ export default function Home() {
     <ServiceSection/>
     <AboutUsSection/>
     <WhyChooseUs/>
-    </main>
+    <ContactUsSection/>
+
+    
+  </main>
   );
 }

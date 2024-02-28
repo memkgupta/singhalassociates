@@ -4,7 +4,7 @@ import { Button } from './ui/moving-border'
 
 function ServiceSection() {
   return (
- <div className='bg-slate-950 w-full text-white sm:pt-8 md:-translate-y-20  px-4 pb-8'>
+ <div id='services' className='bg-slate-950 w-full text-white sm:pt-8 md:-translate-y-20  px-4 pb-8'>
        <div className=' grid md:grid-cols-3 gap-4 grid-cols-1 justify-items-center'>
         <ServiceCard title='Taxes' src={"/taxes.png"} description={"Optimize your tax strategy with our expert consultation service. From individual filings to complex corporate tax planning, we provide personalized solutions to maximize returns and minimize liabilities"}/>
         <ServiceCard title='Audit Service' description='Our auditing service ensures financial integrity and regulatory compliance for businesses of all sizes. We meticulously examine financial records, transactions' src='/audit.png'/>
