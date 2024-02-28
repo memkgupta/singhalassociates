@@ -8,27 +8,7 @@ import { PiCodesandboxLogo } from "react-icons/pi";
 function Navbar({className}:{className?:string}){
   const [active, setActive] = useState<string | null>(null);
 const [isOpen,setIsOpen]=useState(false);
-document.getElementById('scroll-services')?.addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('services')?.scrollIntoView({
-    behavior:'smooth'
-  })
-setIsOpen(false);
-});
-document.getElementById('scroll-contact')?.addEventListener('click', function(e) {
-e.preventDefault();
-document.getElementById('contact')?.scrollIntoView({
-  behavior:'smooth'
-})
-setIsOpen(false);
-});
-document.getElementById('scroll-contact')?.addEventListener('click', function(e) {
-  e.preventDefault();
-  document.getElementById('contact')?.scrollIntoView({
-    behavior:'smooth'
-  })
-setIsOpen(false);
-});
+
   return (
     <div className={cn("fixed top-8 inset-x-0 max-w-2xl mx-auto z-50 px-4", className)}>
 
